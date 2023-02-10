@@ -20,7 +20,6 @@ restaurant = day_trip(restaurants)
 transportation = day_trip(transportations)
 entertainment = day_trip(entertainments)
 
-# date_night = (destinations), (restaurants), (transportations), (entertainments)
 
 def confirm_trip():
     print()
@@ -38,7 +37,7 @@ def confirm_trip():
             
           
             
-    if user_input == "y":
+    else:
         print(f"Here is your list, have a good one! \n Destination: {destination} \n Restaurant: {restaurant} \n Transportation: {transportation} \n Entertainment: {entertainment}")
 
     
